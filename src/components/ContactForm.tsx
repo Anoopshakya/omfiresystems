@@ -125,15 +125,15 @@ const ContactForm = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-            Get In Touch
+            Contact Us
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Contact Us for a
-            <span className="text-gradient"> Free Consultation</span>
+            Get In
+            <span className="text-gradient"> Touch</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Have questions about fire safety solutions? Our experts are ready to help 
-            you find the perfect protection for your facility.
+            For site surveys, fire safety consultations, system installations, upgrades, 
+            or maintenance services, connect with Om Enterprises.
           </p>
         </div>
 
@@ -163,6 +163,13 @@ const ContactForm = () => {
                 </div>
               </div>
             ))}
+
+            {/* Tagline */}
+            <div className="text-center pt-4">
+              <p className="text-primary font-semibold text-sm tracking-wider uppercase">
+                Safety | Compliance | Reliability
+              </p>
+            </div>
           </div>
 
           {/* Contact Form */}

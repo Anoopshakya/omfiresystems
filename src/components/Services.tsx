@@ -3,8 +3,6 @@ import {
   Bell, 
   Flame, 
   FireExtinguisher,
-  Settings,
-  Building,
   ArrowRight
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -14,67 +12,49 @@ const Services = () => {
     {
       icon: Droplets,
       title: "Fire Fighting Systems",
-      description: "Complete fire hydrant systems, automatic sprinklers, hose reels, wet risers, and pump room installations for maximum protection.",
+      description: "Om Enterprises designs and installs comprehensive fire fighting systems that form the backbone of active fire protection. These systems are engineered to provide adequate water flow, pressure, and coverage to effectively control and suppress fires during emergencies.",
       features: [
-        "Fire Hydrant Systems (External & Internal)",
+        "External & Internal Fire Hydrant Systems",
         "Automatic Sprinkler Systems",
         "Hose Reel & Wet Riser Systems",
         "Fire Pump Room Installation",
+        "Underground & Overhead Fire Water Tanks",
       ],
     },
     {
       icon: Bell,
-      title: "Fire Detection & Alarm Systems",
-      description: "State-of-the-art detection and alarm systems to provide early warning and rapid response capabilities.",
+      title: "Fire Detection, Alarm & Gas Detection",
+      description: "Early detection is critical to minimizing fire damage and ensuring safe evacuation. We provide advanced fire detection, alarm, and gas detection systems designed for early warning and reliable emergency response.",
       features: [
-        "Addressable Fire Alarm Systems",
-        "Conventional Fire Alarm Systems",
+        "Addressable & Conventional Fire Alarm Systems",
         "Smoke, Heat & Multi-Sensor Detectors",
-        "Fire Alarm Panel Installation",
+        "Gas Detection (LPG, PNG, CNG, CO & Industrial Gases)",
+        "Manual Call Points & Audio-Visual Devices",
+        "Fire Alarm Panel Installation & Programming",
       ],
     },
     {
       icon: Flame,
       title: "Fire Suppression Systems",
-      description: "Specialized suppression systems designed to protect critical areas and high-value assets.",
+      description: "For high-risk and sensitive areas, we provide specialized fire suppression systems designed to control or extinguish fires without causing secondary damage to critical equipment.",
       features: [
-        "Clean Agent Gas Suppression",
-        "CO₂ Flooding Systems",
-        "Foam-Based Suppression",
+        "Clean Agent Gas Suppression Systems",
+        "CO₂ Flooding & Local Application Systems",
+        "Foam Fire Suppression Systems",
         "Kitchen Hood Fire Suppression",
+        "Server Room & Electrical Panel Protection",
       ],
     },
     {
       icon: FireExtinguisher,
-      title: "Fire Extinguishers & AMC",
-      description: "Complete range of fire extinguishers with regular maintenance, refilling, and certification services.",
+      title: "Fire Extinguishers & AMC Services",
+      description: "Complete fire extinguisher solutions to ensure effective first-response fire safety, along with maintenance services for continuous system readiness and compliance.",
       features: [
-        "All Types of Fire Extinguishers",
-        "Refilling & Hydro Testing",
-        "Annual Maintenance Contracts",
+        "Supply of All Types of Fire Extinguishers",
+        "Refilling, Hydro Testing & Certification",
+        "Fire Safety Audit & Gap Analysis",
+        "Annual Maintenance Contracts (AMC)",
         "Emergency Breakdown Support",
-      ],
-    },
-    {
-      icon: Settings,
-      title: "Safety Audit & Compliance",
-      description: "Comprehensive fire safety audits and gap analysis to ensure full regulatory compliance.",
-      features: [
-        "Fire Safety Audit",
-        "Gap Analysis Reports",
-        "Compliance Documentation",
-        "Regulatory Support",
-      ],
-    },
-    {
-      icon: Building,
-      title: "Civil & Support Services",
-      description: "Complete civil works support for fire system installations including construction and restoration.",
-      features: [
-        "Pump Room & Tank Construction",
-        "Core Cutting & Trenching",
-        "Minor Electrical Support",
-        "Civil Maintenance Works",
       ],
     },
   ];
@@ -85,7 +65,7 @@ const Services = () => {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-            Our Services
+            Fire Protection Systems
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Comprehensive Fire
@@ -98,7 +78,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div
               key={index}

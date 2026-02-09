@@ -5,20 +5,18 @@ import {
   Hospital, 
   GraduationCap, 
   Home,
-  Landmark,
-  Store
+  Landmark
 } from "lucide-react";
 
 const Industries = () => {
   const industries = [
     { icon: Factory, name: "Industrial Plants", description: "Manufacturing & Processing Units" },
-    { icon: Warehouse, name: "Warehouses", description: "Logistics & Storage Parks" },
-    { icon: Building2, name: "Commercial", description: "IT Offices & Business Parks" },
+    { icon: Warehouse, name: "Warehouses", description: "Logistics & Storage Facilities" },
+    { icon: Building2, name: "Commercial", description: "IT Parks & Commercial Buildings" },
     { icon: Hospital, name: "Healthcare", description: "Hospitals & Medical Facilities" },
     { icon: GraduationCap, name: "Educational", description: "Schools & Institutions" },
     { icon: Home, name: "Residential", description: "High-Rise Buildings & Complexes" },
     { icon: Landmark, name: "Government", description: "Government & Semi-Govt Projects" },
-    { icon: Store, name: "Retail", description: "Shopping Centers & Malls" },
   ];
 
   return (
@@ -30,12 +28,12 @@ const Industries = () => {
             Industries We Serve
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-            Protecting Businesses
+            Customized Fire Safety
             <span className="text-primary block">Across All Sectors</span>
           </h2>
           <p className="text-lg text-primary-foreground/70">
-            Our expertise spans multiple industries, delivering customized fire protection 
-            solutions that meet specific regulatory requirements and safety standards.
+            We provide customized fire safety solutions across a wide range of sectors. 
+            Our sector-specific expertise allows us to address unique fire risks effectively and efficiently.
           </p>
         </div>
 

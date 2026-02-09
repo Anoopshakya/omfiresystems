@@ -12,32 +12,32 @@ const WhyUs = () => {
     {
       icon: Shield,
       title: "Fire Safety Focused",
-      description: "100% dedicated to fire protection systems with specialized expertise across all fire safety domains.",
+      description: "Dedicated fire safety-focused organization with specialized expertise across all fire protection domains.",
     },
     {
       icon: Users,
       title: "Expert Team",
-      description: "Experienced technical and execution team with deep industry knowledge and certifications.",
+      description: "Experienced technical and execution team with deep industry knowledge and hands-on project experience.",
+    },
+    {
+      icon: BadgeCheck,
+      title: "Compliance-Driven Execution",
+      description: "All fire protection systems executed in strict accordance with applicable fire safety norms and approved standards.",
     },
     {
       icon: Target,
       title: "Single-Point Responsibility",
-      description: "Complete project ownership from design to commissioning, ensuring seamless execution.",
+      description: "Complete project ownership from design to commissioning, ensuring seamless and coordinated execution.",
     },
     {
       icon: Clock,
-      title: "Timely Completion",
-      description: "Strong commitment to project timelines without compromising on quality or safety standards.",
-    },
-    {
-      icon: BadgeCheck,
-      title: "Quality Assurance",
-      description: "Use of approved and tested equipment with proper documentation and certifications.",
+      title: "Timely Delivery",
+      description: "Strong commitment to project timelines with dependable support throughout the project lifecycle.",
     },
     {
       icon: HeartHandshake,
-      title: "Transparent Pricing",
-      description: "No hidden costs with reliable support and transparent pricing throughout the project lifecycle.",
+      title: "Transparent & Reliable",
+      description: "No hidden costs with transparent pricing, proper documentation, and long-term client relationship focus.",
     },
   ];
 
@@ -50,12 +50,12 @@ const WhyUs = () => {
             Why Choose Us
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Why OM Enterprise Is Your
-            <span className="text-gradient"> Best Choice</span>
+            Why Choose
+            <span className="text-gradient"> Om Enterprises</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            With years of experience and a commitment to excellence, we deliver 
-            fire safety solutions that protect what matters most.
+            We operate with a strong commitment to life safety, property protection, and statutory compliance, 
+            ensuring that all fire systems are executed as per approved standards and best industry practices.
           </p>
         </div>
 

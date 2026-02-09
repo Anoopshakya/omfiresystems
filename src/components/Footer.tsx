@@ -30,10 +30,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="OM Enterprise Logo" className="h-12 w-auto brightness-0 invert" />
+              <img src={logo} alt="Om Enterprises Logo" className="h-12 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
-              OM Enterprise is a professionally managed organization specializing in Fire Protection Systems & Safety Solutions. Delivering excellence across India.
+              Om Enterprises is a professionally managed organization specializing in Fire Protection Systems & Safety Solutions. Delivering excellence across India.
             </p>
             <div className="flex gap-4">
               <a
@@ -140,10 +140,10 @@ const Footer = () => {
         <div className="container mx-auto container-padding py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-primary-foreground/60 text-sm text-center md:text-left">
-              © {currentYear} OM Enterprise. All rights reserved. | Fire Protection Systems & Safety Solutions
+              © {currentYear} Om Enterprises. All rights reserved. | Fire Protection Systems & Safety Solutions
             </p>
-            <p className="text-primary-foreground/60 text-sm">
-              Serving Maharashtra, Uttar Pradesh & Pan India
+            <p className="text-primary-foreground/60 text-sm font-medium">
+              Safety | Compliance | Reliability
             </p>
           </div>
         </div>
