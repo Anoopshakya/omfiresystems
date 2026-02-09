@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 mb-6 animate-fade-in">
             <Flame className="h-4 w-4 text-primary" />
-            <span className="text-sm font-medium text-primary-foreground">Trusted Fire Safety Experts</span>
+            <span className="text-sm font-medium text-primary-foreground">Fire Protection Systems Experts</span>
           </div>
 
           {/* Heading */}
@@ -32,7 +32,9 @@ const Hero = () => {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            OM Enterprise delivers end-to-end fire protection projects for industrial, commercial, and residential facilities. We prioritize safety, compliance, and timely execution.
+            Om Enterprises is a specialized fire protection company delivering end-to-end fire safety solutions 
+            for industrial, commercial, residential, and institutional projects. Our expertise covers the complete 
+            lifecycle — from design and engineering to supply, installation, testing, commissioning, and long-term maintenance.
           </p>
 
           {/* CTA Buttons */}
@@ -48,29 +50,19 @@ const Hero = () => {
             </Button>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                <Shield className="h-6 w-6 text-primary" />
-                <span className="text-3xl font-bold text-primary-foreground">100+</span>
+          {/* Core Services Quick List */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
+            {[
+              { icon: Shield, label: "Fire Fighting Systems" },
+              { icon: Flame, label: "Detection & Alarm" },
+              { icon: Award, label: "Suppression Systems" },
+              { icon: Shield, label: "Extinguishers & AMC" },
+            ].map((item, index) => (
+              <div key={index} className="flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm rounded-lg px-3 py-2">
+                <item.icon className="h-4 w-4 text-primary flex-shrink-0" />
+                <span className="text-sm text-primary-foreground/90">{item.label}</span>
               </div>
-              <p className="text-sm text-primary-foreground/70">Projects Completed</p>
-            </div>
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                <Flame className="h-6 w-6 text-primary" />
-                <span className="text-3xl font-bold text-primary-foreground">15+</span>
-              </div>
-              <p className="text-sm text-primary-foreground/70">Years Experience</p>
-            </div>
-            <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
-                <Award className="h-6 w-6 text-primary" />
-                <span className="text-3xl font-bold text-primary-foreground">50+</span>
-              </div>
-              <p className="text-sm text-primary-foreground/70">Trusted Clients</p>
-            </div>
+            ))}
           </div>
         </div>
       </div>
