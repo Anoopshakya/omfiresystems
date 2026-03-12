@@ -102,7 +102,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-medium">Head Office</p>
-                  <p className="text-primary-foreground/70">Thane, Maharashtra - 400612</p>
+                  <p className="text-primary-foreground/70">A 509, Shree Sadguru Tower Mumbra Devi Colony Road Diva East, Thane Maharastra 400612</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
