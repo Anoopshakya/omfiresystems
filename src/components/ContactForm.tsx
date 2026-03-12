@@ -83,12 +83,12 @@ const ContactForm = () => {
     {
       icon: MapPin,
       title: "Head Office",
-      content: "Thane, Maharashtra - 400612",
+      content: "A 509, Shree Sadguru Tower Mumbra Devi Colony Road Diva East, Thane Maharastra 400612",
     },
     {
       icon: MapPin,
       title: "Branch Office",
-      content: "D-49 Kanwani, Jalalpur Kerakat Road, Jaunpur, UP 222146",
+      content: "D-49 Kanwani, Jalalpur Kerakat Road, Jaunpur, Uttar Pradesh 222146",
     },
     {
       icon: Phone,
@@ -103,10 +103,16 @@ const ContactForm = () => {
       link: "mailto:omenterprises0021@gmail.com",
     },
     {
-      icon: Clock,
-      title: "Business Hours",
-      content: "Mon - Sat: 9:00 AM - 6:00 PM",
+      icon: Mail,
+      title: "Email",
+      content: "kamleshg9921@gmail.com",
+      link: "mailto:kamleshg9921@gmail.com",
     },
+    // {
+    //   icon: Clock,
+    //   title: "Business Hours",
+    //   content: "Mon - Sat: 9:00 AM - 6:00 PM",
+    // },
   ];
 
   const services = [

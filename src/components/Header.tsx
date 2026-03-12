@@ -26,9 +26,9 @@ const Header = () => {
                 <Phone className="h-4 w-4" />
                 +91 97023 03882
               </a>
-              <a href="mailto:omenterprises0021@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <a href="mailto:kamleshg9921@gmail.com" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                 <Mail className="h-4 w-4" />
-                omenterprises0021@gmail.com
+                kamleshg9921@gmail.com
               </a>
             </div>
             <span className="font-medium">Fire Protection Systems & Safety Solutions</span>
