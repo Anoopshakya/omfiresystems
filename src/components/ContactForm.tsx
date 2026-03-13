@@ -96,6 +96,12 @@ const ContactForm = () => {
       content: "+91 97023 03882",
       link: "tel:+919702303882",
     },
+      {
+      icon: Phone,
+      title: "Phone",
+      content: "+91 86523 83733",
+      link: "tel:+918652383733",
+    },
     {
       icon: Mail,
       title: "Email",
